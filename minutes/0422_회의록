@@ -1,0 +1,19 @@
+# 회의록_0422
+
+##### DATE 22.04.22 금 / WHERE - WEBEX
+
+## 역할 분담 회의
+
+### 수식 인식 오픈 소스
+
+#### 내용
+- selvy API LICENSE REQUEST 메일 발송 ( https://handwriting.selvasai.com/math/introduction.html# )
+- 팀원 전체 / 수식 인식 오픈 소스, 실제 구동되는 것 다음 회의 때까지 준비 (~ 4/26 화요일 수업시간)
+- 투표로 결정 
+
+#### 해야할 것
+
+- 인식된 것을 코드로 변환 (sympy 적용 가능한 형태)
+- Sympy를 통한 계산
+- 개발환경, 툴 결정
+- which is 안드로이드 / 윈도우 ? 
