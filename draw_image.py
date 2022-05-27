@@ -35,8 +35,13 @@ class MyApp(QMainWindow):
         clear_action.setShortcut('Ctrl+C')
         clear_action.triggered.connect(self.clear)
 
+        exit_action = QAction('Exit', self)
+        exit_action.setShortcut('Esc')
+        exit_action.triggered.connect(self.exit)
+
         filemenu.addAction(save_action)
         filemenu.addAction(clear_action)
+        filemenu.addAction(exit_action)
 
         self.setWindowTitle('Simple Painter')
         self.setGeometry(300, 300, 332, 213)
@@ -80,6 +85,8 @@ class MyApp(QMainWindow):
         self.image.fill(Qt.white)
         self.update()
 
+    def exit(self):
+        exit()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
